@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
+  description: An example of a Backstage application.
+  annotations:
+   github.com/project-slug: georghaideramaris/scc
+spec:
+  type: service
+  owner: georghaideramaris
+  lifecycle: production
+  
